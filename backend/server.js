@@ -19,7 +19,7 @@ app.use(express.json());
 
 // Using cors middleware with options
 const corsOptions = {
-  origin: process.env.FRONTEND_URL, // Allow requests from your frontend URL
+  origin: "https://event-elue.onrender.com", // Allow requests from your frontend URL
   Credential:true,
   optionSuccessStatus:200,
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Specify allowed HTTP methods
